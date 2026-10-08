@@ -1,0 +1,268 @@
+body:has(.engineering-page-title) {
+  --md-default-bg-color: #f4efe2;
+  --md-default-fg-color: #294b52;
+  --md-primary-fg-color: #315955;
+  --md-primary-fg-color--light: #5e9892;
+  --md-accent-fg-color: #a88935;
+  background: #f4efe2;
+  color: #294b52;
+}
+
+body:has(.engineering-page-title) .md-header {
+  background: linear-gradient(180deg, #315955, #4a837d 55%, #5a9c95);
+  color: #e8d889;
+}
+
+body:has(.engineering-page-title) .md-tabs {
+  background: #315955;
+}
+
+body:has(.engineering-page-title) .md-main,
+body:has(.engineering-page-title) .md-content,
+body:has(.engineering-page-title) .md-sidebar {
+  background: #f4efe2;
+}
+
+body:has(.engineering-page-title) .md-typeset {
+  color: #294b52;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+body:has(.engineering-page-title) .md-typeset h1,
+body:has(.engineering-page-title) .md-typeset h2,
+body:has(.engineering-page-title) .md-typeset h3,
+body:has(.engineering-page-title) .md-typeset h4 {
+  color: #294b52;
+  font-family: Georgia, "Times New Roman", serif;
+  letter-spacing: 0;
+}
+
+body:has(.engineering-page-title) .md-typeset h1.engineering-page-title {
+  min-height: 120px;
+  margin: 0 0 25px;
+  padding: 23px 0 17px;
+  border-bottom: 2px solid #5e9892;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+body:has(.engineering-page-title) .md-typeset img.engineering-hero-art {
+  float: right;
+  width: 210px;
+  max-height: 225px;
+  margin: -138px 10px 22px 35px;
+  object-fit: contain;
+}
+
+body:has(.engineering-page-title) .md-typeset h2 {
+  margin: 50px 0 23px;
+  padding: 0 0 13px;
+  border-bottom: 1px solid #294b5230;
+  font-size: 2rem;
+  font-weight: 400;
+  scroll-margin-top: 90px;
+}
+
+body:has(.engineering-page-title) .md-typeset h2.engineering-module {
+  margin-top: 56px;
+  padding: 14px 18px;
+  border: 0;
+  border-left: 5px solid #e8d889;
+  background: #5e9892;
+  color: #fff9e5;
+  font-size: 1.65rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+body:has(.engineering-page-title) .md-typeset h3 {
+  margin: 43px 0 19px;
+  padding: 10px 14px;
+  border-left: 3px solid #e8d889;
+  background: #ffffff99;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.45;
+  scroll-margin-top: 90px;
+}
+
+body:has(.engineering-page-title) .md-typeset h4 {
+  margin: 27px 0 9px;
+  color: #477a74;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-size: 0.88rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+body:has(.engineering-page-title) .md-typeset a[href^="#module-"] {
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+  margin: 8px 0;
+  padding: 9px 14px;
+  border-left: 2px solid #5e9892;
+  background: #5e98920d;
+  color: #294b52;
+  overflow-wrap: anywhere;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+
+body:has(.engineering-page-title) .md-typeset a[href^="#cycle-"] {
+  color: #356d69;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+body:has(.engineering-page-title) .md-typeset a:hover {
+  color: #8a6e22;
+}
+
+body:has(.engineering-page-title) .md-typeset hr {
+  border-color: #294b5230;
+}
+
+@media (max-width: 760px) {
+  body:has(.engineering-page-title) .md-typeset {
+    font-size: 1rem;
+  }
+
+  body:has(.engineering-page-title) .md-typeset h1.engineering-page-title {
+    min-height: 0;
+    margin-bottom: 18px;
+    padding: 16px 0 12px;
+    font-size: 2.25rem;
+  }
+
+  body:has(.engineering-page-title) .md-typeset img.engineering-hero-art {
+    float: none;
+    display: block;
+    width: 150px;
+    max-height: 165px;
+    margin: 0 auto 20px;
+  }
+
+  body:has(.engineering-page-title) .md-typeset h2 {
+    margin-top: 38px;
+    font-size: 1.65rem;
+  }
+
+  body:has(.engineering-page-title) .md-typeset h2.engineering-module {
+    margin-top: 42px;
+    padding: 12px 13px;
+    font-size: 1.35rem;
+  }
+
+  body:has(.engineering-page-title) .md-typeset h3 {
+    margin-top: 32px;
+    padding: 9px 11px;
+    font-size: 1.18rem;
+  }
+}
+
+/* Shared iGEM-style treatment for the project wiki. */
+:root {
+  --idec-ink: #294b52;
+  --idec-teal: #315955;
+  --idec-mint: #5e9892;
+  --idec-gold: #e8d889;
+  --idec-paper: #f4efe2;
+}
+
+.md-header {
+  background: linear-gradient(180deg, var(--idec-teal), #4a837d 55%, var(--idec-mint));
+}
+
+.md-tabs {
+  background: var(--idec-teal);
+}
+
+.md-main,
+.md-content,
+.md-sidebar {
+  background: var(--idec-paper);
+}
+
+.md-typeset {
+  color: var(--idec-ink);
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.75;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4 {
+  color: var(--idec-ink);
+  font-family: Georgia, "Times New Roman", serif;
+  letter-spacing: 0;
+}
+
+.md-typeset h1 {
+  margin-top: 0.2rem;
+  padding-bottom: 0.65rem;
+  border-bottom: 2px solid var(--idec-mint);
+  font-weight: 400;
+}
+
+.md-typeset h2 {
+  margin-top: 2.2rem;
+  padding: 0.45rem 0.8rem;
+  border-left: 5px solid var(--idec-gold);
+  background: #5e98921a;
+  font-weight: 600;
+}
+
+.md-typeset h3 {
+  margin-top: 1.8rem;
+  color: #477a74;
+  font-weight: 600;
+}
+
+.md-typeset p,
+.md-typeset li {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.md-typeset img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1.1rem auto;
+  border: 1px solid #294b5230;
+}
+
+.md-typeset pre {
+  border-left: 4px solid var(--idec-mint);
+  background: #ffffffaa;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 12px;
+  margin: 1.2rem 0 2rem;
+}
+
+.team-member {
+  padding: 14px 16px;
+  border: 1px solid #5e989266;
+  border-left: 4px solid var(--idec-mint);
+  background: #ffffff99;
+  color: var(--idec-ink);
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.team-member span {
+  float: right;
+  color: #8a6e22;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+}
