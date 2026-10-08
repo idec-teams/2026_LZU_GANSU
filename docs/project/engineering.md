@@ -1,3 +1,7 @@
+# Engineering { .engineering-page-title #engineering-page-title }
+
+![Engineering probiotic illustration](../img/engineering-probiotic.svg){ .engineering-hero-art }
+
 ## **Overview**
 
 The objective of advancing the DENTAL SHIELD project is to address the challenge of early detection and treatment of the most prevalent oral diseases—namely, dental caries and periodontal disease. In this context, we designed and report an engineered Lactococcus lactis probiotic system, which primarily functions to identify danger signal molecules, specifically CSP (Competence Stimulating Peptide), from Streptococcus mutans, a key pathogenic bacterium and one of the most significant culprits responsible for dental caries and periodontal disease, within pathogenic bacterial biofilms in the oral cavity. This system is capable of timely secreting chromogenic proteins for reporting.
@@ -16,7 +20,7 @@ In the DENTAL SHIELD project, we completed the construction and validation of th
 
 Select a module above to jump to its engineering cycles.
 
-## **Module 1: Chassis Cell Screening and Adaptation**
+## **Module 1: Chassis Cell Screening and Adaptation** { .engineering-module }
 
 In this module, our main work is to confirm the microorganisms used in the project, select the chassis cells needed for engineering iterations, and culture these microorganisms under different laboratory conditions to determine the most suitable cultivation conditions. Based on the content of this module, we confirmed the selection of Lactococcus lactis NZ9000 as the chassis strain for engineering modification in the DENTAL SHIELD project, using MRS medium for cultivation. Additionally, we cultured Streptococcus mutans using BHI medium as the foundation for subsequent research work.
 
@@ -96,7 +100,7 @@ The test results indicated that 10 µg/mL was the optimal concentration for D-al
 
 Through this iteration, we successfully constructed the Lactococcus lactis NZ9000 chassis cells with double knockouts of the alr and NisK genes, which will provide a foundation for subsequent engineering modifications. Additionally, we confirmed that the gene deficiencies did not alter the physiological characteristics of the engineered bacteria.
 
-## **Module 2: Signal Reception and Reporting System**
+## **Module 2: Signal Reception and Reporting System** { .engineering-module }
 
 In this module, our primary tasks were to design and synthesize the chimeric receptor ComD-NisK and to validate its effectiveness in receiving CSP signals from Streptococcus pneumoniae. Additionally, we verified whether the engineered bacteria designed for the DENTAL SHIELD project could stably and uniformly output signals under different cultivation conditions. We also constructed a signal relay and stabilization system based on isolated T7 RNA polymerase. The research conducted in this module enabled the DENTAL SHIELD project to capture and identify pathogenic signals from potential sites of oral disease, specifically from plaque biofilms, laying a solid foundation for the success of the entire project.
 
@@ -174,7 +178,7 @@ CSP concentration mutation tests demonstrated that the engineered bacteria with 
 
 Through this cycle, we successfully constructed a CSP signal stability and relay system, enhancing the stability of the engineered bacteria in the face of fluctuations in external inducing signals and lowering the CSP signal response threshold, thereby improving the sensitivity of the engineered bacteria for recognition. This lays a foundation for future functional modifications of the engineered bacteria.
 
-## **Module 3: Disease Reporting and Treatment System**
+## **Module 3: Disease Reporting and Treatment System** { .engineering-module }
 
 In this module, our primary focus is on designing and constructing a disease reporting system within engineered bacteria. Based on this system, we aim to inhibit and eliminate Streptococcus pneumoniae and biofilms, thereby facilitating the treatment of early potential caries and periodontitis, as well as pathogenic bacterial biofilms.
 
@@ -260,7 +264,7 @@ Co-culture results indicated that compared to Streptococcus pneumoniae cultured 
 
 In this cycle, we successfully constructed fully functional engineered bacteria within the DENTAL SHIELD project, which included the expression of the AmilCP chromoprotein in response to CSP signals, the KR-2 antimicrobial peptide, and the SN-15 anti-mineralization peptide, while validating their respective antibacterial functions. This engineering iteration confirms that the engineered bacteria have achieved the design objectives, marking a preliminary success for the project.
 
-## **Module 4: Safety and Biological Containment**
+## **Module 4: Safety and Biological Containment** { .engineering-module }
 
 For all synthetic biology projects, particularly those involving the genetic modification and editing of living bacteria, ensuring the safety of engineered bacteria and implementing passive or active biological containment to prevent the release of genetically modified microorganisms is crucial. In the DENTAL SHIELD project, the necessity for engineered Lactococcus lactis to colonize the oral environment introduces the risk of bacterial release into the gastrointestinal tract, respiratory tract, and the surrounding environment. To achieve active safety and biological containment, we not only constructed the previously mentioned Δalr nutrient-deficient chassis cells but also designed an active safety system based on D-xylose response to establish dual biological containment, ensuring the controlled demise of the engineered bacteria.
 
