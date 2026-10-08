@@ -162,3 +162,107 @@ body:has(.engineering-page-title) .md-typeset hr {
     font-size: 1.18rem;
   }
 }
+
+/* Shared iGEM-style treatment for the project wiki. */
+:root {
+  --idec-ink: #294b52;
+  --idec-teal: #315955;
+  --idec-mint: #5e9892;
+  --idec-gold: #e8d889;
+  --idec-paper: #f4efe2;
+}
+
+.md-header {
+  background: linear-gradient(180deg, var(--idec-teal), #4a837d 55%, var(--idec-mint));
+}
+
+.md-tabs {
+  background: var(--idec-teal);
+}
+
+.md-main,
+.md-content,
+.md-sidebar {
+  background: var(--idec-paper);
+}
+
+.md-typeset {
+  color: var(--idec-ink);
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.75;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4 {
+  color: var(--idec-ink);
+  font-family: Georgia, "Times New Roman", serif;
+  letter-spacing: 0;
+}
+
+.md-typeset h1 {
+  margin-top: 0.2rem;
+  padding-bottom: 0.65rem;
+  border-bottom: 2px solid var(--idec-mint);
+  font-weight: 400;
+}
+
+.md-typeset h2 {
+  margin-top: 2.2rem;
+  padding: 0.45rem 0.8rem;
+  border-left: 5px solid var(--idec-gold);
+  background: #5e98921a;
+  font-weight: 600;
+}
+
+.md-typeset h3 {
+  margin-top: 1.8rem;
+  color: #477a74;
+  font-weight: 600;
+}
+
+.md-typeset p,
+.md-typeset li {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.md-typeset img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1.1rem auto;
+  border: 1px solid #294b5230;
+}
+
+.md-typeset pre {
+  border-left: 4px solid var(--idec-mint);
+  background: #ffffffaa;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 12px;
+  margin: 1.2rem 0 2rem;
+}
+
+.team-member {
+  padding: 14px 16px;
+  border: 1px solid #5e989266;
+  border-left: 4px solid var(--idec-mint);
+  background: #ffffff99;
+  color: var(--idec-ink);
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.team-member span {
+  float: right;
+  color: #8a6e22;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+}
